@@ -1,0 +1,38 @@
+ [
+    {
+      "nome": "Júlio",
+      "cargo": "Programador Pleno",
+      "foto": null,
+      "skill": ["JS", "React", "NodeJS"]
+    },
+    {
+      "nome": "Rodrigo",
+      "cargo": "Programador Pleno",
+      "foto": "https://via.placeholder.com/150/92c952",
+      "skill": ["JS", "React", "Java"]
+    },
+    {
+      "nome": "David",
+      "cargo": "Programador Senior",
+      "foto": "https://via.placeholder.com/150/92c952",
+      "skill": ["React", "PHP", "JS"]
+    },
+    {
+      "nome": "Thiago",
+      "cargo": "Programador Analista",
+      "foto": "https://via.placeholder.com/150/92c952",
+      "skill": ["PHP", "JS"]
+    },
+    {
+      "nome": "Benilson",
+      "cargo": "Programador Analista",
+      "foto": "https://via.placeholder.com/150/92c952",
+      "skill": ["PHP", "JS"]
+    },
+    {
+      "nome": "Rafael",
+      "cargo": "Programador Analista",
+      "foto": "https://via.placeholder.com/150/92c952",
+      "skill": ["JS", "React"]
+    }
+  ]
