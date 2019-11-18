@@ -3,11 +3,21 @@ import MainReducer from "./mainReducer";
 import createSagaMiddleware from "redux-saga";
 import { MainSaga } from "./mainSaga";
 
+const enhancers = [];
+
+if (process.env.NODE_ENV === "development") {
+  const devTools = window.__REDUX_DEVTOOLS_EXTENSION__;
+  if (typeof devTools === "function") {
+    enhancers.push(devTools());
+  }
+}
+
 const sagaMiddleware = createSagaMiddleware();
+const composedEnhancers = compose(
+  applyMiddleware(sagaMiddleware),
+  ...enhancers
+);
 
-const devTools = window.__REDUX_DEVTOOLS_EXTENSION__;
-
-const composedEnhancers = compose(applyMiddleware(sagaMiddleware), devTools);
 const store = createStore(MainReducer, composedEnhancers);
 
 sagaMiddleware.run(MainSaga);

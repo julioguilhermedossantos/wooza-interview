@@ -1,9 +1,14 @@
 import * as Types from "./types";
 
-export const getUsersAction = () => ({
-  type: Types.GET_USERS
-});
-export const setUsersAction = users => ({
-  type: Types.GET_USERS,
-  payload: { users }
-});
+export const getUsersAction = () => {
+  return {
+    type: Types.GET_USERS
+  };
+};
+export const setUsersAction = users => {
+  console.log("users Set: ", users);
+  return {
+    type: Types.SET_USERS,
+    payload: { users }
+  };
+};

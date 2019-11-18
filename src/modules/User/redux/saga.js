@@ -6,8 +6,7 @@ import * as Types from "./types.js";
 function* getUsersSaga() {
   const service = new UserService();
   try {
-    console.log("No saga");
-    const users = yield call(service.getUsers, "/assets/users.json");
+    const users = yield call(service.getUsers);
     yield put(setUsersAction(users));
   } catch (error) {
     console.log(error);

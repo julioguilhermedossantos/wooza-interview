@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Alert from "react-bootstrap/Alert";
 
-import UserService from "../redux/UserService";
 import { getUsersAction } from "../redux/action";
 
 import UserCardProfile from "../UserCardProfile/UserCardProfile";
@@ -54,7 +53,7 @@ class User extends Component {
 
   render() {
     const { users } = this.props;
-
+    console.log(users);
     return (
       <Row>
         {users && users.length
@@ -66,7 +65,7 @@ class User extends Component {
 }
 
 const mapStateToProps = state => ({
-  users: state.user.users
+  users: state.users.users
 });
 
 const mapDispatchToProps = dispatch => ({
