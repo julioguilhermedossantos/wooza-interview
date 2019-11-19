@@ -6,7 +6,6 @@ export const getUsersAction = () => {
   };
 };
 export const setUsersAction = users => {
-  console.log("users Set: ", users);
   return {
     type: Types.SET_USERS,
     payload: { users }

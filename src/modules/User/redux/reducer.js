@@ -7,7 +7,6 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case Types.SET_USERS: {
-      console.log("no reducer: ", action.payload.users);
       return {
         ...state,
         users: action.payload.users

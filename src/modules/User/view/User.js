@@ -53,7 +53,6 @@ class User extends Component {
 
   render() {
     const { users } = this.props;
-    console.log(users);
     return (
       <Row>
         {users && users.length
