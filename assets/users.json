@@ -1,0 +1,38 @@
+[
+    {
+      "nome": "Júlio",
+      "cargo": "Programador Pleno",
+      "foto": "https://api.adorable.io/avatars/233/JúlioGuilherme.png",
+      "skills": ["JS", "React", "NodeJS"]
+    },
+    {
+      "nome": "Rodrigo",
+      "cargo": "Programador Pleno",
+      "foto": "https://api.adorable.io/avatars/233/Rodrigo.png",
+      "skills": ["Java", "JS", "React"]
+    },
+    {
+      "nome": "David",
+      "cargo": "Programador Senior",
+      "foto": "https://api.adorable.io/avatars/233/David.png",
+      "skills": ["React", "PHP", "JS"]
+    },
+    {
+      "nome": "Thiago",
+      "cargo": "Programador Analista",
+      "foto": "https://api.adorable.io/avatars/233/Thiago.png",
+      "skills": ["PHP", "JS"]
+    },
+    {
+      "nome": "Benilson",
+      "cargo": "Programador Analista",
+      "foto": "https://api.adorable.io/avatars/233/Benilson.png",
+      "skills": ["PHP"]
+    },
+    {
+      "nome": "John Wick",
+      "cargo": "Assassino",
+      "foto": "https://api.adorable.io/avatars/233/John.png",
+      "skills": ["Pistol", "Knife", "Rifle"]
+    }
+  ]
