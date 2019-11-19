@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wooza-interview/precache-manifest.94ae8074784093ed83f91da0635ae307.js"
+  "/wooza-interview/precache-manifest.2aaa55e7f58052da2c8726a722573fb1.js"
 );
 
 self.addEventListener('message', (event) => {
